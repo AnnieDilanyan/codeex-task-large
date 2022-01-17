@@ -1,0 +1,126 @@
+/*header */
+#toolbar{
+    position: absolute;
+    width: 100%;
+    height: 131px;
+    left: 0px;
+    top: 0px;
+    background: #9A5B6A;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*logo style*/
+.logo{
+    margin: 26px 0px 26px 32px;
+}
+
+/*searchbar  style*/
+.search{
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid white;
+    width: 438px;
+    height: 35px;
+    margin: 54px 0;
+}
+
+::placeholder {
+    font: normal 24px Gilda Display;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0.8;
+    width: 73px;
+    position: absolute;
+}
+.search_icon{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: -50px;
+    top: 7px;
+}
+
+.search_icon:hover{
+    cursor: pointer;
+}
+
+/*icon's styles*/
+.icon_name{
+	text-decoration: none;
+    font: normal 20px Gilda Display;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: -10px;
+}
+
+.icon_link{
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    padding-left: 40px;
+}
+
+.header_icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 38px 23px 0 0;
+}
+
+
+/*menu style*/
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 56px;
+    left: 0px;
+    top: 131px;
+    background: #EFE6DD;
+    font: normal 18px Gilda Display;
+    text-align: center;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 10.4%;
+    margin-top: 18px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    width: 100%;
+    display: inline;
+    color: black;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+#all{
+    position: relative;
+    top: -8px;
+    left: 7px;
+}
+
+
+@media only screen and (max-width: 1160px) {
+    .search{width: 250px;}
+    .icons {padding-left: 10px;}    
+}
+
+@media only screen and (max-width: 850px) {
+    .search{width: 150px;}
+    .icons {padding-left: 10px;}    
+}
+
+@media only screen and (max-width: 960px) {
+    .navbar > ul {margin: 2% 0.5%}
+}

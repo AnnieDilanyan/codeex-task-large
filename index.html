@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Codeex development task</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/sale.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+<body>
+  <header>
+   <div id="toolbar">
+       <!-- logo -->
+      <div class="logo"><a href="index.html"><img src="img/logo2.png"></a></div>
+
+      <!-- searchbar -->
+      <div class="search_form">
+        <input type="search" name="search" placeholder="Search" class="search" id="search-text-input">
+        <button class="search_icon"><img src="img/search_icon.png"></button>
+      </div>
+
+      <!-- icons -->
+      <div class="header_icons">
+        <div class="icons">
+          <a href="#" class="icon_link"><img src="img/location.png" class="icon"></a><br>
+          <a href="#" class="icon_name">Location</a>
+        </div>
+        <div class="icons">
+          <a href="#" class="icon_link"><img src="img/heart.png" class="icon"></a><br>
+          <a href="#" class="icon_name">Favourites</a>
+        </div>
+        <div class="icons">
+          <a href="#" class="icon_link"><img src="img/cart.png" class="icon"></a><br>
+          <a href="#" class="icon_name">Cart</a>
+        </div>
+        <div class="icons">
+          <a href="#" class="icon_link"><img src="img/user.png" class="icon"></a><br>
+          <a href="#" class="icon_name">Sign in / up</a>
+        </div>
+      </div>
+   </div>
+
+   <!-- menu -->
+   <div class="navbar">
+    <ul>
+      <li><a href="#"><img src="img/burger_menu.png"></a><a href="#" id="all">All</a></li>
+      <li><a href="#">New</a></li>
+      <li><a href="#">Best Sellers</a></li>
+      <li><a href="#">Eyes</a></li>
+      <li><a href="#">Lips</a></li>
+      <li><a href="#">Face</a></li>
+      <li><a href="#">Skin care</a></li>
+      <li><a href="#">Brushes</a></li>
+      <li><a href="#">Perfume</a></li>
+      <li><a href="#">Delivery</a></li>
+    </ul>
+   </div>
+  </header>
+
+    <!-- Slideshow-->
+    <div class="slideshow">
+     <img src="img/wecare_banner.png" style="width: 100%;" id="banner_img">
+     <!-- dots -->
+     <div class="dots"  style="text-align:center">
+       <span class="dot"></span>
+       <span class="dot" id="active"></span>
+       <span class="dot"></span>
+       <span class="dot"></span>
+     </div>
+    </div>
+
+
+    <!-- heading sales -->
+    <a href="#"><h2 id="main_sale">Sale</h2></a>
+    <hr class="separator">
+
+    <!-- products under sale -->
+    <div class="sale_prods"> 
+
+      <!-- product 1 -->
+      <div class="product">
+        <!-- top part -->
+        <span class="white">
+          <span class="purpule"><p>20%</p></span>
+          <img src="img/fav_stroke.png" class="prod_fav">
+        </span>
+        <!-- product image -->
+        <img style="width: 100%;" src="img/sale_prod_1.jpg">
+        <!-- product title -->
+        <h4 class="prod_title">Light sand - Light with natural undertones</h4>
+        <!-- color vartiation -->
+        <div class="color_vartation">
+          <span class="clr-var" style="background-color:#D5BAA7;"></span>
+          <span class="clr-var" style="background-color:#EEC8A3;"></span>
+          <span class="clr-var" style="background-color:#E4B6A6;"></span>
+          <span class="clr-var" style="background-color:#E2B7A6;"><span class="undeline"></span></span>
+          <span class="clr-var" style="background-color:#BE6D58;"></span>
+          <span class="clr-var" style="background-color:#C8A891;"></span>
+          <span class="clr-var" style="background-color:#C19473;"></span>
+          <img src="img/plus.png">
+        </div>
+        <!-- Product type and price -->
+        <h3 class="prod_type">Lip Exfoliator</h3>
+        <div class="price"><p class="price_new">$ 40.00 </p><p class="price_old">$ 52.50</p></div>
+        <!-- add to cart -->
+        <button type="button" class="add_2_cart" style="width: 57%;">Add to Cart</button>
+      </div>
+
+      <!-- product 2 -->
+      <div class="product">
+        <!-- top part -->
+        <span class="white">
+          <span class="purpule"><p>15%</p></span>
+          <img src="img/fav_stroke.png" class="prod_fav">
+        </span>
+        <!-- product image -->
+        <img style="width: 100%;"src="img/prod_2.jpg">
+        <!-- product title -->
+        <h4 class="prod_title">Light sand - Light with natural undertones</h4>
+        <!-- color vartiation -->
+        <div class="color_vartation">
+          <span class="clr-var" style="background-color:#D5BAA7;"></span>
+          <span class="clr-var" style="background-color:#EEC8A3;"></span>
+          <span class="clr-var" style="background-color:#E4B6A6;"></span>
+          <span class="clr-var" style="background-color:#E2B7A6;"></span>
+          <span class="clr-var" style="background-color:#F0BE9B;"><span class="undeline"></span></span>
+          <span class="clr-var" style="background-color:#CAAA93;"></span>
+          <span class="clr-var" style="background-color:#D0B29C;"></span>
+          <img src="img/plus.png">
+        </div>
+        <!-- Product type and price -->
+        <h3 class="prod_type">Camo Concealer</h3>
+        <div class="price"><p class="price_new">$ 87.80 </p><p class="price_old">$ 103.3</p></div>
+        <!-- add to cart -->
+        <button type="button" class="add_2_cart" style="width: 57%;">Add to Cart</button>
+      </div>
+
+      <!-- product 3 -->
+      <div class="product">
+        <!-- top part -->
+        <span class="white">
+          <span class="purpule"><p>5%</p></span>
+          <img src="img/fav.png" class="prod_fav">
+        </span>
+        <!-- product image -->
+        <img style="width: 100%;" src="img/prod_3.jpg">
+        <!-- product title -->
+        <h4 class="prod_title">Bahamas</h4>
+        <!-- color vartiation -->
+        <div class="color_vartation" id="clr_vr_3">
+          <span class="clr-var" style="background-color:#DD605E;"></span>
+          <span class="clr-var" style="background-color:#FA8073;"></span>
+          <span class="clr-var" style="background-color:#F78A6D;"></span>
+          <span class="clr-var" style="background-color:#EA5C52;"></span>
+          <span class="clr-var" style="background-color:#BD5749;"><span class="undeline"></span></span>
+          <span class="clr-var" style="background-color:#FC82A9;"></span>
+          <span class="clr-var" style="background-color:#B94456;"></span>
+          <img src="img/plus.png">
+        </div>
+        <!-- Product type and price -->
+        <h3 class="prod_type">Lip Exfoliator</h3>
+        <div class="price"><p class="price_new">$ 47.50 </p><p class="price_old">$ 50.00</p></div>
+        <!-- add to cart -->
+        <button type="button" class="add_2_cart" style="width: 57%;">Add to Cart</button>
+      </div>
+    </div>
+
+    <!-- more button -->
+    <button type="button" class="more">More</button>
+
+    <!-- banner 1 -->
+    <div class="banner" id="banner_1">
+      <img src="img/banner_1.jpg">
+      <div id="free_try"><button type="button" class="try_free">Try free</button></div>
+    </div>
+
+
+     <!-- gifts -->
+    <a href="#"><h2 id="gift">Give gifts even at a distance</h2></a>
+    <hr class="separator">
+    <div class="gifts">
+
+      <div class="gift_card" style="width: 42%;" >
+        <img width="100%" src="img/gift1.png">
+        <button type="button" id="gift_btn_1";>Order</button>
+      </div>
+      <div class="gift_card" style="width: 42%;" >
+        <img width="100%" src="img/gift_2.png">
+        <button type="button" id="gift_btn_2";>Order</button>
+      </div>  
+    </div>
+
+     <!--  Beauty squad exclusive -->
+    <a href="#"><h2 id="beauty">Beauty squad exclusive</h2></a>
+    <hr class="separator">
+    <div class="beauty_squad">
+      <div id="trio_text">
+        <h3>Points = Free product</h3>
+        <p>Now you can redeem points <br>for full-size products</p>
+        <button type="button" id="sign_in";>Sign in or Join us</button>
+      </div>
+
+      <div class="trio_item">
+        <a href="#">
+          <img width="100%" src="img/lipstick.png">
+          <h5>Ride or die in boss berry</h5>
+        </a>
+      </div>
+
+      <div class="trio_item">
+        <a href="#">
+          <img width="100%" src="img/perfume.png">
+          <h5>Perfume Chanel yellow</h5>
+        </a>
+      </div>
+    </div>
+
+
+    <!-- banner 2 -->
+    <div class="banner" >
+      <img src="img/banner_2.png">
+    </div>
+
+
+    
+
+   <div class="oter_prod">
+     <h2 id="other_prod">Other products in use</h2>
+     <hr class="separator">
+     <div class="tree_img">
+       <div class="collage_img">
+        <a href="#"><img width="100%" src="img/img_1.png"></a>
+       </div>
+
+       <div class="collage_img" style="margin: 0 2% 0 2%;">
+        <a href="#"><img width="100%" src="img/img_2.png"></a>
+       </div>
+       <div class="collage_img">
+        <a href="#"><img width="100%" src="img/img_3.png"></a>
+       </div>     
+     </div>
+   </div>
+
+
+<!-- chat -->
+
+<img id="chat" src="img/chat_bot.png">
+
+<footer>
+  <div class="footer">
+    <!-- footer menu -->
+  <div id="footer_menu">
+    <div class="links">
+    <ul class="ft_menu">
+      <h2>HELP</h2>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Track Package</a></li>
+    </ul><hr>
+
+    <ul class="ft_menu">
+      <h2>DISCOVER</h2>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Track Package</a></li>
+    </ul><hr>
+
+    <ul class="ft_menu">
+      <h2>SERVICIES</h2>
+      <li><a href="#">My account</a></li>
+      <li><a href="#">Beauty Squad</a></li>
+      <li><a href="#">Wish list</a></li>
+      <li><a href="#">Gift Cards</a></li>
+    </ul>
+  </div>
+
+    <div class="social_media"><ul class="social">
+      <li><a href="#"><img id="ig" src="img/ig.png"></a></li>
+      <li><a href="#"><img id="fb" src="img/fb.png"></a></li>
+      <li><a href="#"><img id="tg" src="img/tg.png"></a></li>
+      <li><a href="#"><img id="tt" src="img/tt.png"></a></li>
+      <li><a href="#"><img id="pt" src="img/pt.png"></a></li>
+    </ul>
+  </div>
+   </div> 
+   
+   <!-- copyright -->
+   <div id="copyright">
+    <hr><p>Copryright ©2021 President and Fellows Rai Sim</p>
+   </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
+
+
+
+

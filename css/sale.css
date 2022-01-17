@@ -1,0 +1,144 @@
+/*section heading style*/
+#main_sale{
+    font: normal 24px Gilda Display;
+    color: #000;
+    text-align: center;
+    margin-top: 210px;
+}
+
+/*separator style*/
+hr.separator {
+  border-top: 1px solid #9A5B6A;
+  width: 349px;
+}
+
+/*sale products container*/
+.product{
+    width: 24.2%;
+    background-color: #EFE6DD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*top part*/
+.white{
+    position: absolute;
+    width: 24.2%;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.purpule{
+    position: absolute;
+    width: 23%;
+    height: 56px;
+    background-color: #9A5B6A;
+}
+
+/*sale % info*/
+.purpule p {
+    font: normal 34px Gilda Display;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+
+/*fav icon on top*/
+.prod_fav{
+    float: right;
+    margin: 12px;
+}
+
+/*product title */
+.prod_title{
+    padding-left: 12px;
+    margin-bottom: 0px;
+    font: normal 12px Gilda Display;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/*color_variation*/
+.clr-var {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  margin: 0 2px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 16px;
+}
+
+.color_vartation{
+    margin-left: 12px;
+    position: relative;
+    top: 15px;
+}
+
+.undeline{
+    display: block;
+    height: 1px;
+    border-bottom: 1px solid #000;
+    width: 25px;
+    margin-top: 29px;
+}
+
+/*pricing*/
+.prod_type, .price_new{
+    font: normal 18px Gilda Display;
+    line-height: 21px;
+    margin: 16px 12px;
+}
+
+.price_new{
+    margin-top: 16px;
+}
+
+.price_old {
+    font: normal 14px Gilda Display;
+    line-height: 16px;
+    margin-top: 19px;
+    text-decoration: line-through;
+}
+
+.price {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*add to card*/
+.add_2_cart{
+    background-color: transparent;
+    width: 180px;
+    height: 50px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    border: 1px solid #9A5B6A;
+}
+
+/*products position*/ 
+.sale_prods{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5.5%;
+}
+
+/*more button*/
+.more{
+    background-color: #9A5B6A;
+    color: #fff;
+    font: normal 24px Gilda Display;
+    line-height: 28px;
+    width: 14%;
+    height: 50px;
+    border: 0;
+    position: absolute;
+    left: 43%;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 925px) {
+    #clr_vr_3 {margin-top: 7%;}
+    .prod_type {margin-top: 30px;}
+    .product{height: 550px;}
+}
